@@ -4,7 +4,7 @@ const token = '7184413608:AAEHCQlDP_0xggkSjjs1yIZi_L0DedFgoHI';
 
 const bot = new TelegramBot(token, {polling: true});
 
-const webAppUrl = 'https://tg-course.vercel.app/';
+const webAppUrl = 'https://tg-course.vercel.app/form';
 
 bot.on('message', async (msg) => {
   const chatId = msg.chat.id;
